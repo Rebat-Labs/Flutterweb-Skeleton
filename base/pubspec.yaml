@@ -30,6 +30,11 @@ dependencies:
   go_router: ^5.1.1
   hooks_riverpod: ^2.0.2
   url_strategy: ^0.2.0
+  sizer: ^2.0.15
+  jiffy: ^5.0.0
+  flutter_offline: ^2.1.0
+  flutter_svg: ^1.1.6
+  gap: any
 
 dev_dependencies:
   flutter_test:
@@ -45,8 +50,23 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   uses-material-design: true
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Black.ttf
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
 
   assets:
     - assets/icons/
